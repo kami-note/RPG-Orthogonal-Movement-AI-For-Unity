@@ -9,13 +9,13 @@ RPG Orthogonal Movement AI For Unity is an AI library for Unity, specifically de
 To install this library, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Copy the `IAMoviment.cs` file into the `Assets` directory of your Unity project.
+2. Copy the `IAMovement.cs` file into the `Assets` directory of your Unity project.
 
 ## Usage
 
 To use this library in your Unity project, follow these steps:
 
-1. Add the `IAMoviment` script to the player object in your scene.
+1. Add the `IAMovement` script to the player object in your scene.
 2. In the inspector, set the target and speed according to your game's needs.
 3. The position where the player will move should be defined in the `target` variable.
 4. Call the `IAHandle()` function in the `Update()` method of the class that is using this library.
